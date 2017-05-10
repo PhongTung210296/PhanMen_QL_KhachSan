@@ -1,0 +1,14 @@
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.pdb
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.csprojResolveAssemblyReference.cache
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.Properties.Resources.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.Form1.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.csproj.GenerateResource.Cache
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.KhachHang.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmHoaDon.resources
+C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
