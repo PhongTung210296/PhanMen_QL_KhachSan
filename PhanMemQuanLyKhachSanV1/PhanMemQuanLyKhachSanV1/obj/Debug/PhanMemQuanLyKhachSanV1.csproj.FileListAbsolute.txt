@@ -15,3 +15,6 @@ C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuan
 F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
 F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
 F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+D:\Thuc TapNhom222222222\phongTung\PhanMen_QL_KhachSan\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+D:\Thuc TapNhom222222222\phongTung\PhanMen_QL_KhachSan\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+D:\Thuc TapNhom222222222\phongTung\PhanMen_QL_KhachSan\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
