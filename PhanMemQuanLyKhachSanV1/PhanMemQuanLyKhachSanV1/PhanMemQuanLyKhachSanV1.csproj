@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Controller\HoaDonCtl.cs" />
     <Compile Include="Controller\KhachHangCtl.cs" />
+    <Compile Include="Controller\NhanVienCtl.cs" />
     <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
     <Compile Include="Model\HoaDonObj.cs" />
