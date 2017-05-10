@@ -16,5 +16,40 @@ namespace PhanMemQuanLyKhachSanV1.View
         {
             InitializeComponent();
         }
+
+        private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvNhanVien_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
