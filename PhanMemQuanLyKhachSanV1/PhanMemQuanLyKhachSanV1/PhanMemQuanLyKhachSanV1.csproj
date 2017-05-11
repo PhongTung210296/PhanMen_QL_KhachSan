@@ -46,11 +46,13 @@
   <ItemGroup>
     <Compile Include="Controller\HoaDonCtl.cs" />
     <Compile Include="Controller\KhachHangCtl.cs" />
+    <Compile Include="Controller\PhieuDichVuCtl.cs" />
     <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
     <Compile Include="Model\HoaDonObj.cs" />
     <Compile Include="Model\KhachHangObj.cs" />
     <Compile Include="Model\NhanVienObj.cs" />
+    <Compile Include="Model\PhieuDichVuObj.cs" />
     <Compile Include="Model\PhongObj.cs" />
     <Compile Include="View\frmChucVu.cs">
       <SubType>Form</SubType>
