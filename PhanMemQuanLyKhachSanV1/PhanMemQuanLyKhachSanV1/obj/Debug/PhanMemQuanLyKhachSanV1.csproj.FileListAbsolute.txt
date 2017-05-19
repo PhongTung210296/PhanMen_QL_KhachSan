@@ -18,3 +18,9 @@ F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\Phan
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
