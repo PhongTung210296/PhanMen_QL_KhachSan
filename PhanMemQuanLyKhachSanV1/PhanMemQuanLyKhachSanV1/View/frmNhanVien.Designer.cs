@@ -70,7 +70,7 @@
             this.label1.Location = new System.Drawing.Point(313, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(149, 31);
-            this.label1.TabIndex = 7;
+            this.label1.TabIndex = 3;
             this.label1.Text = "Nhân Viên";
             // 
             // groupBox3
@@ -85,7 +85,7 @@
             this.groupBox3.Location = new System.Drawing.Point(269, 392);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(560, 68);
-            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             // 
             // btnHuy
@@ -159,7 +159,7 @@
             this.groupBox2.Location = new System.Drawing.Point(269, 56);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(560, 330);
-            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách khách hàng";
             // 
@@ -194,7 +194,7 @@
             this.groupBox1.Location = new System.Drawing.Point(4, 56);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(259, 404);
-            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chi tiết";
             // 

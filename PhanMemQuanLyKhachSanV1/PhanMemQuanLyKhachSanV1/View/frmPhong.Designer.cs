@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnHuy = new System.Windows.Forms.Button();
@@ -50,10 +51,15 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaPhong = new System.Windows.Forms.TextBox();
+            this.qlKhachSanDataSet = new PhanMemQuanLyKhachSanV1.QlKhachSanDataSet();
+            this.phanLoaiPhongBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.phanLoaiPhongTableAdapter = new PhanMemQuanLyKhachSanV1.QlKhachSanDataSetTableAdapters.PhanLoaiPhongTableAdapter();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qlKhachSanDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phanLoaiPhongBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -61,10 +67,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(365, 8);
+            this.label1.Location = new System.Drawing.Point(365, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(97, 31);
-            this.label1.TabIndex = 7;
+            this.label1.TabIndex = 3;
             this.label1.Text = "Phòng";
             // 
             // groupBox3
@@ -76,10 +82,10 @@
             this.groupBox3.Controls.Add(this.btnXoa);
             this.groupBox3.Controls.Add(this.btnSua);
             this.groupBox3.Controls.Add(this.btnThem);
-            this.groupBox3.Location = new System.Drawing.Point(269, 391);
+            this.groupBox3.Location = new System.Drawing.Point(269, 392);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(560, 68);
-            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             // 
             // btnHuy
@@ -150,10 +156,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.dgvPhong);
-            this.groupBox2.Location = new System.Drawing.Point(269, 55);
+            this.groupBox2.Location = new System.Drawing.Point(269, 56);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(560, 330);
-            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách khách hàng";
             // 
@@ -182,24 +188,31 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaPhong);
-            this.groupBox1.Location = new System.Drawing.Point(4, 55);
+            this.groupBox1.Location = new System.Drawing.Point(4, 56);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(259, 404);
-            this.groupBox1.TabIndex = 8;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chi tiết";
             // 
             // cbbMaPL
             // 
+            this.cbbMaPL.DataSource = this.phanLoaiPhongBindingSource;
+            this.cbbMaPL.DisplayMember = "TenLoaiPhong";
             this.cbbMaPL.FormattingEnabled = true;
             this.cbbMaPL.Location = new System.Drawing.Point(66, 197);
             this.cbbMaPL.Name = "cbbMaPL";
             this.cbbMaPL.Size = new System.Drawing.Size(187, 21);
             this.cbbMaPL.TabIndex = 35;
+            this.cbbMaPL.ValueMember = "MaPL";
             // 
             // cbbGia
             // 
             this.cbbGia.FormattingEnabled = true;
+            this.cbbGia.Items.AddRange(new object[] {
+            "100k",
+            "200k",
+            "300k"});
             this.cbbGia.Location = new System.Drawing.Point(66, 152);
             this.cbbGia.Name = "cbbGia";
             this.cbbGia.Size = new System.Drawing.Size(187, 21);
@@ -311,6 +324,20 @@
             this.txtMaPhong.Size = new System.Drawing.Size(187, 20);
             this.txtMaPhong.TabIndex = 17;
             // 
+            // qlKhachSanDataSet
+            // 
+            this.qlKhachSanDataSet.DataSetName = "QlKhachSanDataSet";
+            this.qlKhachSanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // phanLoaiPhongBindingSource
+            // 
+            this.phanLoaiPhongBindingSource.DataMember = "PhanLoaiPhong";
+            this.phanLoaiPhongBindingSource.DataSource = this.qlKhachSanDataSet;
+            // 
+            // phanLoaiPhongTableAdapter
+            // 
+            this.phanLoaiPhongTableAdapter.ClearBeforeFill = true;
+            // 
             // frmPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -328,6 +355,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.qlKhachSanDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phanLoaiPhongBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,7 +374,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvPhong;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox cbbMaPL;
         private System.Windows.Forms.ComboBox cbbGia;
         private System.Windows.Forms.TextBox txtTinhTrang;
         private System.Windows.Forms.Label a;
@@ -357,5 +385,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMaPhong;
+        private System.Windows.Forms.ComboBox cbbMaPL;
+        private QlKhachSanDataSet qlKhachSanDataSet;
+        private System.Windows.Forms.BindingSource phanLoaiPhongBindingSource;
+        private QlKhachSanDataSetTableAdapters.PhanLoaiPhongTableAdapter phanLoaiPhongTableAdapter;
     }
 }

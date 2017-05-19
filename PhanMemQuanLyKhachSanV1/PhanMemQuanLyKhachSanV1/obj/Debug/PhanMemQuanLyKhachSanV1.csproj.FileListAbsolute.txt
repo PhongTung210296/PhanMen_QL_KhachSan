@@ -9,21 +9,12 @@ F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\Phan
 F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
 F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.KhachHang.resources
 F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmHoaDon.resources
-C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
-C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
-C:\Users\Phong_Tung\Desktop\Thực Tập Nhóm\qlKhachSan\QlKhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
-F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
-F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
-F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
-D:\Thuc TapNhom222222222\phongTung\PhanMen_QL_KhachSan\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
-D:\Thuc TapNhom222222222\phongTung\PhanMen_QL_KhachSan\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
-D:\Thuc TapNhom222222222\phongTung\PhanMen_QL_KhachSan\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
-<<<<<<< HEAD
-C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
-C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
-C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
-=======
-D:\Thuc TapNhom222222222\phongTung\thuyyy\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
-D:\Thuc TapNhom222222222\phongTung\thuyyy\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
-D:\Thuc TapNhom222222222\phongTung\thuyyy\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
->>>>>>> ThuyVu
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmNhanVien.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmPhieuDichVu.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmChucVu.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmPhanLoaiPhong.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmMain.resources
+F:\Bài tập web\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmPhong.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb

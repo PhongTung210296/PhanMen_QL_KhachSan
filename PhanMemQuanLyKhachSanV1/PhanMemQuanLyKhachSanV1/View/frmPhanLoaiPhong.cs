@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
+using PhanMemQuanLyKhachSanV1.Model;
+using PhanMemQuanLyKhachSanV1.Controller;
 namespace PhanMemQuanLyKhachSanV1.View
 {
     public partial class frmPhanLoaiPhong : Form
@@ -15,6 +17,50 @@ namespace PhanMemQuanLyKhachSanV1.View
         public frmPhanLoaiPhong()
         {
             InitializeComponent();
+        }
+       
+        private void frmPhanLoaiPhong_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+     
+
+      
+
+        private void dgvPhanLoai_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
+
+        private void GanDuLieu(PhanLoaiPhongObj pl1obj)
+        {
+          
+        }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }
