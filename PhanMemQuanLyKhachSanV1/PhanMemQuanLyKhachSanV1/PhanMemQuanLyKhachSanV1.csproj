@@ -44,20 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\HoaDonCtl.cs" />
-    <Compile Include="Controller\KhachHangCtl.cs" />
-<<<<<<< HEAD
-    <Compile Include="Controller\NhanVienCtl.cs" />
-=======
-    <Compile Include="Controller\PhieuDichVuCtl.cs" />
->>>>>>> ThuyVu
-    <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
-    <Compile Include="Model\HoaDonObj.cs" />
-    <Compile Include="Model\KhachHangObj.cs" />
-    <Compile Include="Model\NhanVienObj.cs" />
-    <Compile Include="Model\PhieuDichVuObj.cs" />
-    <Compile Include="Model\PhongObj.cs" />
+    <Compile Include="QlKhachSanDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="View\frmChucVu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +124,9 @@
     <EmbeddedResource Include="View\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frmNhanVien.resx">
       <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,11 +151,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="QlKhachSanDataSet.xsc">
+      <DependentUpon>QlKhachSanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet.xss">
+      <DependentUpon>QlKhachSanDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
