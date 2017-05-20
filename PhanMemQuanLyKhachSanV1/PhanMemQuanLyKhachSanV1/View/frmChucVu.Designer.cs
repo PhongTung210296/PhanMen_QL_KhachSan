@@ -54,10 +54,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(339, 8);
+            this.label1.Location = new System.Drawing.Point(339, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 31);
-            this.label1.TabIndex = 11;
+            this.label1.TabIndex = 7;
             this.label1.Text = "Chức Vụ";
             // 
             // groupBox3
@@ -69,10 +69,10 @@
             this.groupBox3.Controls.Add(this.btnXoa);
             this.groupBox3.Controls.Add(this.btnSua);
             this.groupBox3.Controls.Add(this.btnThem);
-            this.groupBox3.Location = new System.Drawing.Point(269, 391);
+            this.groupBox3.Location = new System.Drawing.Point(269, 392);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(560, 68);
-            this.groupBox3.TabIndex = 14;
+            this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             // 
             // btnHuy
@@ -86,6 +86,7 @@
             this.btnHuy.TabIndex = 43;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnLuu
             // 
@@ -98,6 +99,7 @@
             this.btnLuu.TabIndex = 42;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnXoa
             // 
@@ -109,6 +111,7 @@
             this.btnXoa.TabIndex = 41;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -120,6 +123,7 @@
             this.btnSua.TabIndex = 40;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -131,6 +135,7 @@
             this.btnThem.TabIndex = 39;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // groupBox2
             // 
@@ -138,10 +143,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.dgvChucVu);
-            this.groupBox2.Location = new System.Drawing.Point(269, 55);
+            this.groupBox2.Location = new System.Drawing.Point(269, 56);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(560, 330);
-            this.groupBox2.TabIndex = 13;
+            this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách khách hàng";
             // 
@@ -152,6 +157,7 @@
             this.dgvChucVu.Name = "dgvChucVu";
             this.dgvChucVu.Size = new System.Drawing.Size(545, 305);
             this.dgvChucVu.TabIndex = 0;
+            this.dgvChucVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChucVu_CellClick);
             // 
             // groupBox1
             // 
@@ -162,10 +168,10 @@
             this.groupBox1.Controls.Add(this.txtHoTenCV);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtMaCV);
-            this.groupBox1.Location = new System.Drawing.Point(4, 55);
+            this.groupBox1.Location = new System.Drawing.Point(4, 56);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(259, 404);
-            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin chi tiết";
             // 
@@ -232,6 +238,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmChucVu";
             this.Text = "frmChucVu";
+            this.Load += new System.EventHandler(this.frmChucVu_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvChucVu)).EndInit();

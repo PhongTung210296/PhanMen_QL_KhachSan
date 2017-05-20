@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 using PhanMemQuanLyKhachSanV1.Model;
 
 namespace PhanMemQuanLyKhachSanV1.Controller
 {
-    class PhieuDichVuCtl
+    class NhanVienCtl
     {
         ConnectToSql con = new ConnectToSql();
         SqlCommand cmd = new SqlCommand();
@@ -21,7 +21,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
-            cmd.CommandText = "select * from PhieuDichVu";
+            cmd.CommandText = "select * from NhanVien";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -39,14 +39,9 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             }
             return dt;
         }
-
-        /// <summary>
-        /// Hàm Thêm nhân viên vào danh sách
-        /// </summary>
-        /// <param name="nvobj">đối tượng cần thêm vào ds</param>
-        public bool AddPhieuDichVu(PhieuDichVuObj pdvobj)
+        public bool AddNhanVien(NhanVienObj nvobj)
         {
-            cmd.CommandText = "Insert into PhieuDichVu values ('" + pdvobj.MaPhieuDichVu + "','" + pdvobj.MaPhieuDangKy + "',N'" + pdvobj.TenDichVu + "','" + pdvobj.GiaDichVu + "')";
+            cmd.CommandText = "Insert into NhanVien values ('" + nvobj.MaNV + "',N'" + nvobj.TenNhanVien + "','" + nvobj.MaChucVu + "','" + nvobj.GioiTinh + "','" + nvobj.NgaySinh + "','" + nvobj.DiaChi + "','" + nvobj.SDT + "');";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -64,14 +59,9 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             }
             return true;
         }
-
-        /// <summary>
-        /// Hàm xóa một nhân viên ra khỏi danh sách
-        /// </summary>
-        /// <param name="ma"> mã nhân viên cần xóa</param>
-        public bool DelPhieuDichVu(string ma)
+        public bool DelNhanVien(string ma)
         {
-            cmd.CommandText = "delete PhieuDichVu where MaPieuDichVu= '" + ma + "'";
+            cmd.CommandText = "delete KhachHang where MaKH= '" + ma + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -88,14 +78,9 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             }
             return true;
         }
-
-        /// <summary>
-        /// Hàm sửa thông tin một nhân viên
-        /// </summary>
-        /// <param name="khobj"> đối tượng nhân viên cần sửa</param>
-        public bool UpdatePhieuDichVu(PhieuDichVuObj pdvobj)
+        public bool UpdateNhanVien(NhanVienObj nvobj)
         {
-            cmd.CommandText = " update PhieuDichVu set MaPhieuDangKy=N'" + pdvobj.MaPhieuDangKy + "',TenDichVu='" + pdvobj.TenDichVu + "',GiaDichVu='" + pdvobj.GiaDichVu + "' where MaPhieuDichVu='" + pdvobj.MaPhieuDichVu + "'";
+            cmd.CommandText = " update NhanVien set TenNhanVien=N'" + nvobj.TenNhanVien + "',MaChucVu='" + nvobj.MaChucVu + "',GioiTinh='" + nvobj.GioiTinh + "',NgaySinh='" + nvobj.NgaySinh + "',DiaChi='" + nvobj.DiaChi + "',SDT='" + nvobj.SDT + "' where MaNV='" + nvobj.MaNV + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try

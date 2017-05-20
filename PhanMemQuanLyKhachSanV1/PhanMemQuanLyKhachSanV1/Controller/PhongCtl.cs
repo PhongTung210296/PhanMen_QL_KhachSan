@@ -9,15 +9,12 @@ using PhanMemQuanLyKhachSanV1.Model;
 
 namespace PhanMemQuanLyKhachSanV1.Controller
 {
-    
     class PhongCtl
     {
         ConnectToSql con = new ConnectToSql();
         SqlCommand cmd = new SqlCommand();
-        /// <summary>
-        /// Hàm lấy dữ liệu . Trả về 1 data table
-        /// </summary>
-        /// <returns></returns>
+
+
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
@@ -40,13 +37,10 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return dt;
         }
 
-        /// <summary>
-        /// Hàm Thêm nhân viên vào danh sách
-        /// </summary>
-        /// <param name="nvobj">đối tượng cần thêm vào ds</param>
+
         public bool AddPhong(PhongObj pobj)
         {
-            cmd.CommandText = "Insert into Phong values ('" + pobj.MaPhong + "','" + pobj.TenPhong + "',N'" + pobj.TinhTrang + "','" + pobj.GiaPhong + "','" + pobj.MaPhanLoai + "','" + pobj.DonVi + "')";
+            cmd.CommandText = "Insert into Phong values ('" + pobj.MaPhong + "',N'" + pobj.TenPhong + "',N'" + pobj.TinhTrang + "','" + pobj.GiaPhong + "','" + pobj.MaPhanLoai + "','" + pobj.DonVi + "')";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -65,10 +59,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return true;
         }
 
-        /// <summary>
-        /// Hàm xóa một nhân viên ra khỏi danh sách
-        /// </summary>
-        /// <param name="ma"> mã nhân viên cần xóa</param>
+
         public bool DelPhong(string ma)
         {
             cmd.CommandText = "delete Phong where MaPhong= '" + ma + "'";
@@ -89,13 +80,10 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return true;
         }
 
-        /// <summary>
-        /// Hàm sửa thông tin một nhân viên
-        /// </summary>
-        /// <param name="khobj"> đối tượng nhân viên cần sửa</param>
+
         public bool UpdatePhong(PhongObj pobj)
         {
-            cmd.CommandText = " update Phong set TenPhong='" + pobj.TenPhong + "',TinhTrang='" + pobj.TinhTrang + "',GiaPhong='" + pobj.GiaPhong + "',MaPL='" + pobj.MaPhanLoai + "',DonVi='" + pobj.DonVi + "', where MaPhong='" + pobj.MaPhong + "'";
+            cmd.CommandText = " update Phong set TenPhong=N'" + pobj.TenPhong + "',TinhTrang='" + pobj.TinhTrang + "',GiaPhong='" + pobj.GiaPhong + "',MaPL='" + pobj.MaPhanLoai + "',DonVi='" + pobj.DonVi + "' where MaPhong='" + pobj.MaPhong + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try

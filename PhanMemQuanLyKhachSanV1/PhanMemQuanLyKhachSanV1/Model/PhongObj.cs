@@ -24,4 +24,5 @@ namespace PhanMemQuanLyKhachSanV1.Model
             this.MaPhanLoai = MaPhanLoai;
             this.DonVi = DonVi;
         }
+    }
 }

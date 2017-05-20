@@ -7,13 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 using PhanMemQuanLyKhachSanV1.Model;
 using PhanMemQuanLyKhachSanV1.Controller;
-
 namespace PhanMemQuanLyKhachSanV1.View
 {
     public partial class frmPhong : Form
     {
+     
         public frmPhong()
         {
             InitializeComponent();
@@ -21,14 +22,6 @@ namespace PhanMemQuanLyKhachSanV1.View
         PhongCtl pctl = new PhongCtl();
         PhongObj pobj = new PhongObj();
         int flag = 0;
-
-        private void frmPhong_Load(object sender, EventArgs e)
-        {
-
-            dgvPhong.DataSource = pctl.GetData();
-            dgvPhong.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dis_en(false);
-        }
         public void dis_en(bool e)
         {
             txtMaPhong.Enabled = e;
@@ -43,14 +36,6 @@ namespace PhanMemQuanLyKhachSanV1.View
             btnSua.Enabled = !e;
             btnXoa.Enabled = !e;
         }
-        private void clean()
-        {
-            txtMaPhong.Clear();
-            txtTenPhong.Clear();
-            txtTinhTrang.Clear();
-            txtDonVi.Clear();
-        }
-
         private void GanDuLieu(PhongObj p1obj)
         {
             p1obj.MaPhong = txtMaPhong.Text.ToString().Trim();
@@ -61,8 +46,27 @@ namespace PhanMemQuanLyKhachSanV1.View
             p1obj.MaPhanLoai = cbbMaPL.Text.ToString().Trim();
         }
 
+        private void clean()
+        {
+            txtMaPhong.Clear();
+            txtTenPhong.Clear();
+            txtTinhTrang.Clear();
+            txtDonVi.Clear();
+        }
+
+      
+
+        private void frmPhong_Load(object sender, EventArgs e)
+        {
+            this.phanLoaiPhongTableAdapter.Fill(this.qlKhachSanDataSet.PhanLoaiPhong);
+            dgvPhong.DataSource = pctl.GetData();
+            dgvPhong.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dis_en(false);
+        }
+
         private void dgvPhong_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
                 try
@@ -83,6 +87,7 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         private void btnThem_Click(object sender, EventArgs e)
         {
+
             flag = 0;
             clean();
             dis_en(true);
@@ -90,14 +95,12 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-
             flag = 1;
             dis_en(true);
         }
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-
             DialogResult dr = MessageBox.Show("Bạn có thật sự muốn xóa ?", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             {
                 if (dr == DialogResult.Yes)
