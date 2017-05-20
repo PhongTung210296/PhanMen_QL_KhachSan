@@ -45,8 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\NhanVienCtl.cs" />
+    <Compile Include="Controller\PhanLoaiPhongCtl.cs" />
+    <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
     <Compile Include="Model\NhanVienObj.cs" />
+    <Compile Include="Model\PhanLoaiPhongObj.cs" />
+    <Compile Include="Model\PhongObj.cs" />
     <Compile Include="QlKhachSanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -63,6 +67,12 @@
     </Compile>
     <Compile Include="View\frmHoaDon.Designer.cs">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmHuongDan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmHuongDan.Designer.cs">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frmLogin.cs">
       <SubType>Form</SubType>
