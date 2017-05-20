@@ -45,8 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\NhanVienCtl.cs" />
+    <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
     <Compile Include="Model\NhanVienObj.cs" />
+    <Compile Include="Model\PhongObj.cs" />
     <Compile Include="QlKhachSanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
