@@ -44,10 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\HoaDonCtl.cs" />
     <Compile Include="Controller\NhanVienCtl.cs" />
     <Compile Include="Controller\PhanLoaiPhongCtl.cs" />
     <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
+    <Compile Include="Model\HoaDonObj.cs" />
     <Compile Include="Model\NhanVienObj.cs" />
     <Compile Include="Model\PhanLoaiPhongObj.cs" />
     <Compile Include="Model\PhongObj.cs" />
