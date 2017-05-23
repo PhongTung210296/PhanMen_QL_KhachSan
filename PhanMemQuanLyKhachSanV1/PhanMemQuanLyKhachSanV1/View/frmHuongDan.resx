@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Sau khi đăng nhập thành công, một hộp thoại mới xuất hiện, người dùng có thể tường tác trên đây, màn hình chính có các chức năng:
+-Chức năng khách hàng dùng để lưu trữ thông tin của người thuê phòng
+	+Nếu bạn muốn thêm khác hàng thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa thông tin của khách hàng thì bạn ấn vào người đó trong danh sách khách hàng sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+Nếu bạn muốn xóa khác hàng thì ấn vào khách hàng đó trong danh sách khách hàng sau đó ân nút xóa.	
++ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công) thì là bạn đã thêm thành công , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.
+-chức năng phân loại phòng dùng để phân loại các loại phòng từ đắt tiền đến rẻ tiền
+	+Nếu bạn muốn thêm phân loại phòng thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa thông tin phân loại phòng thì bạn ấn vào phòng đó trong danh sách phân loại phòng sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+Nếu bạn muốn xóa phân loại phòng thì ấn vào  phóng đó trong danh sách phân loại phòng sau đó ân nút xóa.	
+	+ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công) thì là bạn đã thêm thành công , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.
+-chức năng phiếu dịch vụ dùng để liệt kê các gói dịch vụ và giá các gói dịch vụ đó
+	+Nếu bạn muốn thêm dịch vụ trong phiếu dịch vụ  thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa thông tin phiếu dịch vụ thì bạn ấn vào dòng đó trong danh sách phiếu dịch vụ  sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+ Nếu bạn muốn xóa phiếu dịch vụ thì ấn vào phiếu dịch vụ đó trong danh sách phiếu dịch vụ và ấn nút xóa.
+	+ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công) thì là bạn đã thêm thành công , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.
+-chức năng nhân viên dùng để hiển thị danh sách nhân viên làm việc trong sách sạn. Có thể thêm, sửa , xóa thông tin nhân viên trong form này
+	+Nếu bạn muốn thêm nhân viên thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa thông tin của nhân viên thì bạn ấn vào người đó trong danh sách nhân viên sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+ Nếu bạn muốn xóa nhân viên nào đó thì bạn ấn vào nhân viên đó trong danh sách nhân viên và ấn vào nút xóa.
+	+ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công) thì là bạn đã thêm thành công , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.
+-chức năng hóa đơn dùng để in hóa đơn thanh toán tiền thuê phòng và tiền dịch vụ
+	+Nếu bạn muốn thêm hóa đơn thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa thông tin hóa đơn thì bạn ấn vào hóa đươn đó trong danh sách hóa đơn sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+Nếu bạn muốn xóa hóa đơn nào đó thì bạn ấn vào hóa đơn đó trong danh sách hóa đơn và sau đó ấn vào xóa.
+	+ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công) thì là bạn đã thêm thành công , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.
+-chức năng phòng dùng dể in danh sách các phòng và thông tin các phòng còn trống ,các phòng đã được thuê  và các phòn đã được phân loại
+	+Nếu bạn muốn thêm phòng thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa thông tin của phòng thì bạn ấn vào phòng đó trong danh sách phòng sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+Nếu bạn muốn xóa phòng nào đó thì bạn ấn vào phòng đó trong danh sách phòng và ấn vào nút xóa .
+	+ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công) thì là bạn đã thêm thành công , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.
+-chức năng Chức vụ dùng để phân chia chức vụ của các nhân viên làm việc trong khách sạn này
+	+Nếu bạn muốn thêm Chức vụ thì ấn vào nút thêm và điền thông tin vào các trường trong bảng. Sau đó ấn lưu để  kết thúc.
+	+Nếu bạn muốn sửa Chức vụ của ai đó thì bạn ấn vào người đó trong danh sách chức vụ sau đó ấn vào nút sửa . Khi bạn đã sửa thông tin xong thì bạn ấn vào nút lưu.
+	+Nếu bạn muốn xóa Chức vụ nào đó thì bạn ấn vào chức vụ đó trong danh sách chức vụ và sau đó ấn vài nút xóa.		
+	+ Lưu ý : Sau khi ấn nút lưu .Nếu có hộp thoại hiện lên là thêm thành công(sửa thành công, xóa thành công ) thì là bạn đã thêm thành công(sửa thành công, xóa thành công) , ngược lại hộp thoại hiện lên thêm không thành công(sửa không thành công, xóa không thành công) thì bạn cần kiểm tra lại các thông tin trong các trường của bảng.</value>
+  </data>
+</root>
