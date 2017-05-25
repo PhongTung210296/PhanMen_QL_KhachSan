@@ -27,6 +27,7 @@ F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug
 D:\Thuc TapNhom222222222\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
 D:\Thuc TapNhom222222222\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
 D:\Thuc TapNhom222222222\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+<<<<<<< HEAD
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.csprojResolveAssemblyReference.cache
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.Properties.Resources.resources
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmChucVu.resources
@@ -43,3 +44,8 @@ C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.csproj.GenerateResource.Cache
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe
 C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.pdb
+=======
+D:\Thực Tập Nhóm\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+D:\Thực Tập Nhóm\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+D:\Thực Tập Nhóm\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+>>>>>>> origin/master
