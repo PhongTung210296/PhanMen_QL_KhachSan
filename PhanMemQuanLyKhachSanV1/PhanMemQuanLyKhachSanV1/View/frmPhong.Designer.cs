@@ -40,6 +40,8 @@
             this.dgvPhong = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cbbMaPL = new System.Windows.Forms.ComboBox();
+            this.phanLoaiPhongBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qlKhachSanDataSet = new PhanMemQuanLyKhachSanV1.QlKhachSanDataSet();
             this.cbbGia = new System.Windows.Forms.ComboBox();
             this.txtTinhTrang = new System.Windows.Forms.TextBox();
             this.a = new System.Windows.Forms.Label();
@@ -51,15 +53,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMaPhong = new System.Windows.Forms.TextBox();
-            this.qlKhachSanDataSet = new PhanMemQuanLyKhachSanV1.QlKhachSanDataSet();
-            this.phanLoaiPhongBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.phanLoaiPhongTableAdapter = new PhanMemQuanLyKhachSanV1.QlKhachSanDataSetTableAdapters.PhanLoaiPhongTableAdapter();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qlKhachSanDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.phanLoaiPhongBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qlKhachSanDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -198,7 +198,7 @@
             // cbbMaPL
             // 
             this.cbbMaPL.DataSource = this.phanLoaiPhongBindingSource;
-            this.cbbMaPL.DisplayMember = "TenLoaiPhong";
+            this.cbbMaPL.DisplayMember = "MaPL";
             this.cbbMaPL.FormattingEnabled = true;
             this.cbbMaPL.Location = new System.Drawing.Point(66, 197);
             this.cbbMaPL.Name = "cbbMaPL";
@@ -206,13 +206,23 @@
             this.cbbMaPL.TabIndex = 35;
             this.cbbMaPL.ValueMember = "MaPL";
             // 
+            // phanLoaiPhongBindingSource
+            // 
+            this.phanLoaiPhongBindingSource.DataMember = "PhanLoaiPhong";
+            this.phanLoaiPhongBindingSource.DataSource = this.qlKhachSanDataSet;
+            // 
+            // qlKhachSanDataSet
+            // 
+            this.qlKhachSanDataSet.DataSetName = "QlKhachSanDataSet";
+            this.qlKhachSanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // cbbGia
             // 
             this.cbbGia.FormattingEnabled = true;
             this.cbbGia.Items.AddRange(new object[] {
-            "100k",
-            "200k",
-            "300k"});
+            "100",
+            "200",
+            "300"});
             this.cbbGia.Location = new System.Drawing.Point(66, 152);
             this.cbbGia.Name = "cbbGia";
             this.cbbGia.Size = new System.Drawing.Size(187, 21);
@@ -324,16 +334,6 @@
             this.txtMaPhong.Size = new System.Drawing.Size(187, 20);
             this.txtMaPhong.TabIndex = 17;
             // 
-            // qlKhachSanDataSet
-            // 
-            this.qlKhachSanDataSet.DataSetName = "QlKhachSanDataSet";
-            this.qlKhachSanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // phanLoaiPhongBindingSource
-            // 
-            this.phanLoaiPhongBindingSource.DataMember = "PhanLoaiPhong";
-            this.phanLoaiPhongBindingSource.DataSource = this.qlKhachSanDataSet;
-            // 
             // phanLoaiPhongTableAdapter
             // 
             this.phanLoaiPhongTableAdapter.ClearBeforeFill = true;
@@ -355,8 +355,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhong)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.qlKhachSanDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.phanLoaiPhongBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qlKhachSanDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

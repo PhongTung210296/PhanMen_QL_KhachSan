@@ -14,10 +14,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
         ConnectToSql con = new ConnectToSql();
         SqlCommand cmd = new SqlCommand();
 
-        /// <summary>
-        /// Hàm lấy dữ liệu . Trả về 1 data table
-        /// </summary>
-        /// <returns></returns>
+       
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
@@ -40,13 +37,10 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return dt;
         }
 
-        /// <summary>
-        /// Hàm Thêm nhân viên vào danh sách
-        /// </summary>
-        /// <param name="hdobj">đối tượng cần thêm vào ds</param>
+  
         public bool AddHoaDon(HoaDonObj hdobj)
         {
-            cmd.CommandText = "Insert into HoaDon values ('" + hdobj.MaHD + "','" + hdobj.NgayThanhToan + "','" + hdobj.SoTienDatTruoc + "','" + hdobj.DonVi + "','" + hdobj.MaNV + "')";
+            cmd.CommandText = "Insert into HoaDon values ('" + hdobj.MaHD + "','" + hdobj.MaKH + "','" + hdobj.MaNV + "','" + hdobj.NgayLap + "','" + hdobj.NgayDi + "','" + hdobj.MaPhong + "','" + hdobj.TraTruoc + "','" + hdobj.DonVi + "','" + hdobj.MaPhieuDichVu + "')";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -71,7 +65,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
         /// <param name="ma"> mã nhân viên cần xóa</param>
         public bool DelHoaDon(string ma)
         {
-            cmd.CommandText = "delete HoaDon where MaKH= '" + ma + "'";
+            cmd.CommandText = "delete HoaDon where MaHD= '" + ma + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -89,13 +83,10 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return true;
         }
 
-        /// <summary>
-        /// Hàm sửa thông tin một nhân viên
-        /// </summary>
-        /// <param name="hdobj"> đối tượng nhân viên cần sửa</param>
+       
         public bool UpdateHoaDon(HoaDonObj hdobj)
         {
-            cmd.CommandText = " update HoaDon set NgayThanhToan='" + hdobj.NgayThanhToan + "',SoTienDatTruoc='" + hdobj.SoTienDatTruoc + "',DonVi='" + hdobj.DonVi + "',MaNV='" + hdobj.MaNV + "' where MaHD='" + hdobj.MaHD + "'";
+            cmd.CommandText = " update HoaDon set MaKH='" + hdobj.MaKH + "', MaNV='" + hdobj.MaNV + "',NgayLap='" + hdobj.NgayLap + "',NgayDi='" + hdobj.NgayDi + "',MaPhong='" + hdobj.MaPhong + "',TraTruoc='" + hdobj.TraTruoc + "',DonVi='" + hdobj.DonVi + "',MaPhieDichVu='" + hdobj.MaPhieuDichVu + "' where MaHD='" + hdobj.MaHD + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
