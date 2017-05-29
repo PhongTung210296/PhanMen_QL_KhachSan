@@ -14,8 +14,8 @@ namespace PhanMemQuanLyKhachSanV1.View
 {
     public partial class frmChucVu : Form
     {
-        //ChucVuCtl cvctl = new ChucVuCtl();
-        //ChucVuObj cvobj = new ChucVuObj();
+        ChucVuCtl cvctl = new ChucVuCtl();
+        ChucVuObj cvobj = new ChucVuObj();
         int flag = 0;
         public frmChucVu()
         {
@@ -121,18 +121,14 @@ namespace PhanMemQuanLyKhachSanV1.View
             }
         }
 
-<<<<<<< HEAD
-        //private void GanDuLieu(ChucVuObj cv1obj)
-        //{
-          
-        //}
-=======
+
+
         private void GanDuLieu(ChucVuObj cv1obj)
         {
             cv1obj.MaChucVu = txtMaCV.Text.ToString().Trim();
             cv1obj.TenChucVu = txtHoTenCV.Text.ToString().Trim();
         }
->>>>>>> origin/master
+
 
         private void btnThem_Click(object sender, EventArgs e)
         {

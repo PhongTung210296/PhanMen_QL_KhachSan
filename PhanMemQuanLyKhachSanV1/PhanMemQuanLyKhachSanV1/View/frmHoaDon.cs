@@ -24,10 +24,14 @@ namespace PhanMemQuanLyKhachSanV1.View
         public void dis_en(bool e)
         {
             txtMaHD.Enabled = e;
-            dtNgayTT.Enabled = e;
+            cbbKhachHang.Enabled = e;
+            cbbMaDV.Enabled = e;
+            cbbMaNV.Enabled = e;
+            cbbMaPhong.Enabled = e;
+            dtNgayLap.Enabled = e;
+            dtNgayDi.Enabled = e;
             txtDatTruoc.Enabled = e;
             txtDonVi.Enabled = e;
-            cbbMaNV.Enabled = e;
             btnHuy.Enabled = e;
             btnLuu.Enabled = e;
             btnThem.Enabled = !e;
@@ -40,8 +44,12 @@ namespace PhanMemQuanLyKhachSanV1.View
             txtMaHD.Clear();
             txtDonVi.Clear();
             txtDatTruoc.Clear();
-            // cbbMaNV.Clear();
-            dtNgayTT.Value = DateTime.Now;
+            cbbMaNV.ResetText();
+            cbbMaPhong.ResetText();
+            cbbMaDV.ResetText();
+            dtNgayLap.Value = DateTime.Now;
+            dtNgayDi.Value = DateTime.Now;
+            cbbKhachHang.ResetText();
         }
 
 
@@ -54,6 +62,18 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         private void frmHoaDon_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'qlKhachSanDataSet6.NhanVien' table. You can move, or remove it, as needed.
+            this.nhanVienTableAdapter1.Fill(this.qlKhachSanDataSet6.NhanVien);
+            // TODO: This line of code loads data into the 'qlKhachSanDataSet5.KhachHang' table. You can move, or remove it, as needed.
+            this.khachHangTableAdapter.Fill(this.qlKhachSanDataSet5.KhachHang);
+            // TODO: This line of code loads data into the 'qlKhachSanDataSet4.PhieuDichVu' table. You can move, or remove it, as needed.
+            this.phieuDichVuTableAdapter.Fill(this.qlKhachSanDataSet4.PhieuDichVu);
+            // TODO: This line of code loads data into the 'qlKhachSanDataSet3.Phong' table. You can move, or remove it, as needed.
+            this.phongTableAdapter.Fill(this.qlKhachSanDataSet3.Phong);
+            // TODO: This line of code loads data into the 'dataSet1.NhanVien' table. You can move, or remove it, as needed.
+            this.nhanVienTableAdapter.Fill(this.dataSet1.NhanVien);
+            // TODO: This line of code loads data into the 'qlKhachSanDataSet1.HoaDon' table. You can move, or remove it, as needed.
+            this.hoaDonTableAdapter.Fill(this.qlKhachSanDataSet1.HoaDon);
             dgvHoaDon.DataSource = hdctl.GetData();
             dgvHoaDon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dis_en(false);
@@ -67,10 +87,14 @@ namespace PhanMemQuanLyKhachSanV1.View
                 try
                 {
                     txtMaHD.Text = dgvHoaDon.CurrentRow.Cells[0].Value.ToString();
-                    dtNgayTT.Text = dgvHoaDon.CurrentRow.Cells[1].Value.ToString();
-                    txtDatTruoc.Text = dgvHoaDon.CurrentRow.Cells[2].Value.ToString();
-                    txtDonVi.Text = dgvHoaDon.CurrentRow.Cells[3].Value.ToString();
-                    cbbMaNV.Text = dgvHoaDon.CurrentRow.Cells[4].Value.ToString();
+                    cbbKhachHang.Text = dgvHoaDon.CurrentRow.Cells[1].Value.ToString();
+                    cbbMaNV.Text = dgvHoaDon.CurrentRow.Cells[2].Value.ToString();
+                    dtNgayLap.Text = dgvHoaDon.CurrentRow.Cells[3].Value.ToString();
+                    dtNgayDi.Text = dgvHoaDon.CurrentRow.Cells[4].Value.ToString();
+                    cbbMaPhong.Text = dgvHoaDon.CurrentRow.Cells[5].Value.ToString();
+                    txtDatTruoc.Text = dgvHoaDon.CurrentRow.Cells[6].Value.ToString();
+                    txtDonVi.Text = dgvHoaDon.CurrentRow.Cells[7].Value.ToString();
+                    cbbMaDV.Text = dgvHoaDon.CurrentRow.Cells[8].Value.ToString();
                 }
                 catch (Exception ex)
                 {
@@ -82,10 +106,14 @@ namespace PhanMemQuanLyKhachSanV1.View
         private void GanDuLieu(HoaDonObj hd1obj)
         {
             hd1obj.MaHD = txtMaHD.Text.ToString().Trim();
-            hd1obj.NgayThanhToan = dtNgayTT.Value;
-            hd1obj.SoTienDatTruoc = txtDatTruoc.Text.ToString().Trim();
-            hd1obj.DonVi = txtDonVi.Text.ToString().Trim();
+            hd1obj.MaKH = cbbKhachHang.Text.ToString().Trim();
             hd1obj.MaNV = cbbMaNV.Text.ToString().Trim();
+            hd1obj.NgayLap = dtNgayLap.Value;
+            hd1obj.NgayDi = dtNgayDi.Value;
+            hd1obj.MaPhong = cbbMaPhong.Text.ToString().Trim();
+            hd1obj.TraTruoc= txtDatTruoc.Text.ToString().Trim();
+            hd1obj.DonVi = txtDonVi.Text.ToString().Trim();
+            hd1obj.MaPhieuDichVu = cbbMaDV.Text.ToString().Trim();
         }
 
         private void btnThem_Click(object sender, EventArgs e)

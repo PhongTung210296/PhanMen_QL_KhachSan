@@ -75,8 +75,8 @@ namespace PhanMemQuanLyKhachSanV1.View
                     txtTenPhong.Text = dgvPhong.CurrentRow.Cells[1].Value.ToString();
                     txtTinhTrang.Text = dgvPhong.CurrentRow.Cells[2].Value.ToString();
                     cbbGia.Text = dgvPhong.CurrentRow.Cells[3].Value.ToString();
-                    cbbMaPL.Text = dgvPhong.CurrentRow.Cells[5].Value.ToString();
-                    txtTinhTrang.Text = dgvPhong.CurrentRow.Cells[5].Value.ToString();
+                    cbbMaPL.Text = dgvPhong.CurrentRow.Cells[4].Value.ToString();
+                    txtDonVi.Text = dgvPhong.CurrentRow.Cells[5].Value.ToString();
                 }
                 catch (Exception ex)
                 {
