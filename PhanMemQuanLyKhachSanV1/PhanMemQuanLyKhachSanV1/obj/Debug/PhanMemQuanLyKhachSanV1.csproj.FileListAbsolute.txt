@@ -24,3 +24,28 @@ C:\Users\Hiep\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanM
 F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
 F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
 F:\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+D:\Thuc TapNhom222222222\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+D:\Thuc TapNhom222222222\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+D:\Thuc TapNhom222222222\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+<<<<<<< HEAD
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.csprojResolveAssemblyReference.cache
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.Properties.Resources.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmChucVu.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmHoaDon.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmHuongDan.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.Form1.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmMain.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmNhanVien.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmPhanLoaiPhong.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmPhieuDichVu.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmPhong.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.frmSearch.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.View.KhachHang.resources
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.csproj.GenerateResource.Cache
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe
+C:\Users\Phong_Tung\Documents\GitHub\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.pdb
+=======
+D:\Thực Tập Nhóm\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\bin\Debug\PhanMemQuanLyKhachSanV1.exe.config
+D:\Thực Tập Nhóm\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.exe
+D:\Thực Tập Nhóm\PhanMen_QL_KhachSan\PhanMemQuanLyKhachSanV1\PhanMemQuanLyKhachSanV1\obj\Debug\PhanMemQuanLyKhachSanV1.pdb
+>>>>>>> origin/master

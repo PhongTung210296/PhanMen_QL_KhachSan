@@ -44,12 +44,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\ChucVuCtl.cs" />
+    <Compile Include="Controller\HoaDonCtl.cs" />
+    <Compile Include="Controller\KhachHangCtl.cs" />
     <Compile Include="Controller\NhanVienCtl.cs" />
     <Compile Include="Controller\PhanLoaiPhongCtl.cs" />
+    <Compile Include="Controller\PhieuDichVuCtl.cs" />
     <Compile Include="Controller\PhongCtl.cs" />
+    <Compile Include="Controller\SearchCtl.cs" />
+    <Compile Include="Model\ChucVuObj.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
+    <Compile Include="Model\HoaDonObj.cs" />
+    <Compile Include="Model\KhachHangObj.cs" />
     <Compile Include="Model\NhanVienObj.cs" />
     <Compile Include="Model\PhanLoaiPhongObj.cs" />
+    <Compile Include="Model\PhieuDichVuObj.cs" />
     <Compile Include="Model\PhongObj.cs" />
     <Compile Include="QlKhachSanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -112,6 +121,12 @@
     <Compile Include="View\frmPhong.Designer.cs">
       <DependentUpon>frmPhong.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +148,9 @@
     <EmbeddedResource Include="View\frmHoaDon.resx">
       <DependentUpon>frmHoaDon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\frmHuongDan.resx">
+      <DependentUpon>frmHuongDan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmPhong.resx">
       <DependentUpon>frmPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\KhachHang.resx">
       <DependentUpon>KhachHang.cs</DependentUpon>
