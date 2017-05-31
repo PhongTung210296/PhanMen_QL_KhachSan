@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
 using System.Data.SqlClient;
 using PhanMemQuanLyKhachSanV1.Model;
 using PhanMemQuanLyKhachSanV1.Controller;

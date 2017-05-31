@@ -44,21 +44,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\ChucVuCtl.cs" />
     <Compile Include="Controller\HoaDonCtl.cs" />
+    <Compile Include="Controller\KhachHangCtl.cs" />
     <Compile Include="Controller\NhanVienCtl.cs" />
     <Compile Include="Controller\PhanLoaiPhongCtl.cs" />
+    <Compile Include="Controller\PhieuDichVuCtl.cs" />
     <Compile Include="Controller\PhongCtl.cs" />
     <Compile Include="Controller\SearchCtl.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ChucVuObj.cs" />
     <Compile Include="Model\ConnectToSql.cs" />
     <Compile Include="Model\HoaDonObj.cs" />
     <Compile Include="Model\KhachHangObj.cs" />
     <Compile Include="Model\NhanVienObj.cs" />
     <Compile Include="Model\PhanLoaiPhongObj.cs" />
+    <Compile Include="Model\PhieuDichVuObj.cs" />
     <Compile Include="Model\PhongObj.cs" />
     <Compile Include="QlKhachSanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QlKhachSanDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QlKhachSanDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QlKhachSanDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QlKhachSanDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QlKhachSanDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QlKhachSanDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QlKhachSanDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QlKhachSanDataSet6.xsd</DependentUpon>
     </Compile>
     <Compile Include="View\frmChucVu.cs">
       <SubType>Form</SubType>
@@ -170,6 +210,17 @@
     <EmbeddedResource Include="View\KhachHang.resx">
       <DependentUpon>KhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -189,6 +240,72 @@
     </None>
     <None Include="QlKhachSanDataSet.xss">
       <DependentUpon>QlKhachSanDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet1.xsc">
+      <DependentUpon>QlKhachSanDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet1.xss">
+      <DependentUpon>QlKhachSanDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet2.xsc">
+      <DependentUpon>QlKhachSanDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet2.xss">
+      <DependentUpon>QlKhachSanDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet3.xsc">
+      <DependentUpon>QlKhachSanDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet3.xss">
+      <DependentUpon>QlKhachSanDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet4.xsc">
+      <DependentUpon>QlKhachSanDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet4.xss">
+      <DependentUpon>QlKhachSanDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet5.xsc">
+      <DependentUpon>QlKhachSanDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet5.xss">
+      <DependentUpon>QlKhachSanDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet6.xsc">
+      <DependentUpon>QlKhachSanDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QlKhachSanDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QlKhachSanDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QlKhachSanDataSet6.xss">
+      <DependentUpon>QlKhachSanDataSet6.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

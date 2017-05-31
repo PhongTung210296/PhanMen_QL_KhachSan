@@ -68,5 +68,22 @@ namespace PhanMemQuanLyKhachSanV1.View
             }
         }
 
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            frmHuongDan hd = new frmHuongDan();
+            hd.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            frmSearch sh = new frmSearch();
+            sh.Show();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Data;
+using System.Data.SqlClient;
+using PhanMemQuanLyKhachSanV1.Model;
 namespace PhanMemQuanLyKhachSanV1.Controller
 {
     class PhieuDichVuCtl
@@ -11,10 +13,6 @@ namespace PhanMemQuanLyKhachSanV1.Controller
         ConnectToSql con = new ConnectToSql();
         SqlCommand cmd = new SqlCommand();
 
-        /// <summary>
-        /// Hàm lấy dữ liệu . Trả về 1 data table
-        /// </summary>
-        /// <returns></returns>
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
@@ -37,10 +35,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return dt;
         }
 
-        /// <summary>
-        /// Hàm Thêm nhân viên vào danh sách
-        /// </summary>
-        /// <param name="nvobj">đối tượng cần thêm vào ds</param>
+     
         public bool AddPhieuDichVu(PhieuDichVuObj pdvobj)
         {
             cmd.CommandText = "Insert into PhieuDichVu values ('" + pdvobj.MaPhieuDichVu + "','" + pdvobj.MaPhieuDangKy + "',N'" + pdvobj.TenDichVu + "','" + pdvobj.GiaDichVu + "')";
@@ -62,10 +57,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return true;
         }
 
-        /// <summary>
-        /// Hàm xóa một nhân viên ra khỏi danh sách
-        /// </summary>
-        /// <param name="ma"> mã nhân viên cần xóa</param>
+       
         public bool DelPhieuDichVu(string ma)
         {
             cmd.CommandText = "delete PhieuDichVu where MaPieuDichVu= '" + ma + "'";
@@ -86,10 +78,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return true;
         }
 
-        /// <summary>
-        /// Hàm sửa thông tin một nhân viên
-        /// </summary>
-        /// <param name="khobj"> đối tượng nhân viên cần sửa</param>
+       
         public bool UpdatePhieuDichVu(PhieuDichVuObj pdvobj)
         {
             cmd.CommandText = " update PhieuDichVu set MaPhieuDangKy=N'" + pdvobj.MaPhieuDangKy + "',TenDichVu='" + pdvobj.TenDichVu + "',GiaDichVu='" + pdvobj.GiaDichVu + "' where MaPhieuDichVu='" + pdvobj.MaPhieuDichVu + "'";
