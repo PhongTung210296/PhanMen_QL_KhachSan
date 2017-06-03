@@ -30,7 +30,14 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         public void dis_en(bool e)
         {
-            
+            txtMaPL.Enabled = e;
+            txtTenLP.Enabled = e;
+            txtTrangBi.Enabled = e;
+            btnHuy.Enabled = e;
+            btnLuu.Enabled = e;
+            btnThem.Enabled = !e;
+            btnSua.Enabled = !e;
+            btnXoa.Enabled = !e;
         }
 
         public void LoadData()
@@ -42,11 +49,15 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         private void clean()
         {
-            
+            txtMaPL.Clear();
+            txtTenLP.Clear();
+            txtTrangBi.Clear();
         }
         private void GanDuLieu(PhanLoaiPhongObj pl1obj)
         {
-           
+            pl1obj.MaPL = txtMaPL.Text.ToString().Trim();
+            pl1obj.TenLoaiPhong = txtTenLP.Text.ToString().Trim();
+            pl1obj.TrangBi = txtTrangBi.Text.ToString().Trim();
         }
 
 
