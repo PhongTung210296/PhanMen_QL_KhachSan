@@ -14,8 +14,8 @@ namespace PhanMemQuanLyKhachSanV1.View
 {
     public partial class frmChucVu : Form
     {
-        ChucVuCtl cvctl = new ChucVuCtl();
-        ChucVuObj cvobj = new ChucVuObj();
+        ChucVuCtl CvCtl = new ChucVuCtl();
+        ChucVuObj CvObj = new ChucVuObj();
         int flag = 0;
         public frmChucVu()
         {
@@ -74,7 +74,7 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         private void frmChucVu_Load(object sender, EventArgs e)
         {
-            dgvChucVu.DataSource = cvctl.GetData();
+            dgvChucVu.DataSource = CvCtl.GetData();
             dgvChucVu.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dis_en(false);
         }
@@ -149,7 +149,7 @@ namespace PhanMemQuanLyKhachSanV1.View
             {
                 if (dr == DialogResult.Yes)
                 {
-                    if (cvctl.DelChucVu(txtMaCV.Text.Trim()))
+                    if (CvCtl.DelChucVu(txtMaCV.Text.Trim()))
                     {
                         MessageBox.Show("Xóa thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         frmChucVu_Load(sender, e);
@@ -168,10 +168,10 @@ namespace PhanMemQuanLyKhachSanV1.View
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
-            GanDuLieu(cvobj);
+            GanDuLieu(CvObj);
             if (flag == 0)   // thêm
             {
-                if (cvctl.AddChucVu(cvobj))
+                if (CvCtl.AddChucVu(CvObj))
                 {
                     MessageBox.Show("Thêm thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     frmChucVu_Load(sender, e);
@@ -183,7 +183,7 @@ namespace PhanMemQuanLyKhachSanV1.View
             }
             else            // sửa
             {
-                if (cvctl.UpdateChucVu(cvobj))
+                if (CvCtl.UpdateChucVu(CvObj))
                 {
                     MessageBox.Show("Sửa thành công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     frmChucVu_Load(sender, e);

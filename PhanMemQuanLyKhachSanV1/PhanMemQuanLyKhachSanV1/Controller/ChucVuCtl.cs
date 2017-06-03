@@ -36,9 +36,9 @@ namespace PhanMemQuanLyKhachSanV1.Controller
         }
 
 
-        public bool AddChucVu(ChucVuObj cvobj)
+        public bool AddChucVu(ChucVuObj CvObj)
         {
-            cmd.CommandText = "Insert into ChucVu values ('" + cvobj.MaChucVu + "',N'" + cvobj.TenChucVu + "')";
+            cmd.CommandText = "Insert into ChucVu values ('" + CvObj.MaChucVu + "',N'" + CvObj.TenChucVu + "')";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
@@ -78,9 +78,9 @@ namespace PhanMemQuanLyKhachSanV1.Controller
             return true;
         }
 
-        public bool UpdateChucVu(ChucVuObj cvobj)
+        public bool UpdateChucVu(ChucVuObj CvObj)
         {
-            cmd.CommandText = " update ChucVu set TenChucVu=N'" + cvobj.TenChucVu + "' where MaChucVu='" + cvobj.MaChucVu + "'";
+            cmd.CommandText = " update ChucVu set TenChucVu=N'" + CvObj.TenChucVu + "' where MaChucVu='" + CvObj.MaChucVu + "'";
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con.strConn;
             try
