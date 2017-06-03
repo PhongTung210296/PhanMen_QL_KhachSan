@@ -9,9 +9,7 @@ namespace PhanMemQuanLyKhachSanV1.Model
     class ChucVuObj
     {
         public string MaChucVu { get; set; }
-      
         public string TenChucVu { get; set; }
-        
         public ChucVuObj() { }
         public ChucVuObj(string MaChucVu, string TenChuVu)
         {
