@@ -39,7 +39,22 @@ namespace PhanMemQuanLyKhachSanV1.Controller
 
         public bool AddPhanLoaiPhong(PhanLoaiPhongObj plobj)
         {
-           
+            cmd.CommandText = "Insert into PhanLoaiPhong values ('" + plobj.MaPL + "',N'" + plobj.TenLoaiPhong + "',N'" + plobj.TrangBi + "')";
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = con.strConn;
+            try
+            {
+                con.OpenConnect();
+                cmd.ExecuteNonQuery();
+                con.CloseConnection();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                string mes = ex.Message;
+                cmd.Dispose();
+                con.CloseConnection();
+            }
             return true;
         }
 
