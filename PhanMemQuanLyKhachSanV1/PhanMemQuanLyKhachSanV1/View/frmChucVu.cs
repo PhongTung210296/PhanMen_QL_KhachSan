@@ -201,5 +201,9 @@ namespace PhanMemQuanLyKhachSanV1.View
             dis_en(false);
         }
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
