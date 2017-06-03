@@ -69,6 +69,7 @@ namespace PhanMemQuanLyKhachSanV1.Controller
                 con.OpenConnect();
                 cmd.ExecuteNonQuery();
                 con.CloseConnection();
+
             }
             catch (Exception ex)
             {

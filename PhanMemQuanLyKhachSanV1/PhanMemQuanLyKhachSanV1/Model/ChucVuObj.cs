@@ -11,10 +11,10 @@ namespace PhanMemQuanLyKhachSanV1.Model
         public string MaChucVu { get; set; }
         public string TenChucVu { get; set; }
         public ChucVuObj() { }
-        public ChucVuObj(string MaChucVu, string TenChucVu)
+        public ChucVuObj(string maChucVu, string tenChucVu)
         {
-            this.MaChucVu = MaChucVu;
-            this.TenChucVu = TenChucVu;
+            this.MaChucVu = maChucVu;
+            this.TenChucVu = tenChucVu;
         }
     }
 }
