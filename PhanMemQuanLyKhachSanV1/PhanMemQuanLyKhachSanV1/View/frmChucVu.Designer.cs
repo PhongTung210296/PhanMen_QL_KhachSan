@@ -216,6 +216,7 @@
             this.label2.Size = new System.Drawing.Size(66, 13);
             this.label2.TabIndex = 18;
             this.label2.Text = "Mã Chức Vụ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtMaCV
             // 

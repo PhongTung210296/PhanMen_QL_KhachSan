@@ -13,7 +13,6 @@ namespace PhanMemQuanLyKhachSanV1.Controller
         ConnectToSql con = new ConnectToSql();
         SqlCommand cmd = new SqlCommand();
 
-
         public DataTable GetData()
         {
             DataTable dt = new DataTable();
