@@ -80,5 +80,10 @@ namespace PhanMemQuanLyKhachSanV1.View
             sh.Show();
         }
 
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
